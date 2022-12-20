@@ -1,0 +1,12 @@
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\bin\Debug\net6.0\CoreLayer.deps.json
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\bin\Debug\net6.0\CoreLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\bin\Debug\net6.0\CoreLayer.pdb
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfo.cs
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\refint\CoreLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\CoreLayer.pdb
+D:\Visual Studio 2022\WebProgramlamaProje\CoreLayer\obj\Debug\net6.0\ref\CoreLayer.dll

@@ -1,0 +1,17 @@
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+D:\Visual Studio 2022\WebProgramlamaProje\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
