@@ -16,5 +16,6 @@ namespace BusinessLayer.Abstract
         Product GetById(int id);
 
         List<Product> GetProductListWithCategory();
+
     }
 }

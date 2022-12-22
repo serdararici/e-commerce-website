@@ -40,10 +40,10 @@
 
 								</ul>
 								<h5 class="card-title">
-									<a href="single.html">@item.ProductName</a>
+									<a href="/Product/ProductReadAll/@item.ProductID/">@item.ProductName</a>
 								</h5>
 								<p class="card-text mb-3">@item.ProductContent.Substring(0,item.ProductContent.Substring(0,26).LastIndexOf(" "))... </p>
-								<a href="/Product/ProductDetails/@item.ProductID/" class="btn btn-primary read-m">İncele</a>
+								<a href="/Product/ProductReadAll/@item.ProductID/" class="btn btn-primary read-m">İncele</a>
 							</div>
 						</div>
 						<br />

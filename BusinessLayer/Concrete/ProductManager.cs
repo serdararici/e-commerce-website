@@ -23,6 +23,11 @@ namespace BusinessLayer.Concrete
 			throw new NotImplementedException();
 		}
 
+		public List<Product> GetProductByID(int id)
+		{
+			return _productDal.GetListAll(x => x.ProductID == id);
+		}
+
 		public List<Product> GetList()
 		{
 			return _productDal.GetListAll();

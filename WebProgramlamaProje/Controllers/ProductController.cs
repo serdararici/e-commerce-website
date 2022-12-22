@@ -13,9 +13,11 @@ namespace WebProgramlamaProje.Controllers
             var values = pm.GetProductListWithCategory();
             return View(values);
         }
-        public IActionResult ProductDetails(int id)
+        public IActionResult ProductReadAll(int id)
         {
-            return View();
+            ViewBag.i = id;
+            var values = pm.GetProductByID(id);
+            return View(values);
         }
     }
 }
