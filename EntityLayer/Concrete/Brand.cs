@@ -14,6 +14,8 @@ namespace EntityLayer.Concrete
         public string MarkaName { get; set; }
         public string MarkaDescription { get; set; }
         public string MarkaLogo { get; set; }
+        public string MarkaMail { get; set; }
+        public string MarkaPassword { get; set; }
         public bool MarkaStatus { get; set; }
     }
 }
