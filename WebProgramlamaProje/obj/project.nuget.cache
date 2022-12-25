@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "4lnuON74AXaYuTd2gAKyxCFMv83d2ttCNUV4sAcAxt3nzX/S3k9lg0qsrXrV8sPLHu873ipINBV9h3d2Ba/dpw==",
+  "dgSpecHash": "WUE3CGLRBmh3DZ0dc9nSzkVWRpCP+xLlDcmzoXvlWiSZuIU7XgtcMla4WOhAgcUv01v5Qa9fsHBAQo3JbaimfQ==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\WebProgramlamaProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Legion\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Legion\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Legion\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

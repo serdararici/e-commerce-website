@@ -52,5 +52,10 @@ namespace BusinessLayer.Concrete
 		{
 			throw new NotImplementedException();
 		}
+
+		public List<Product> GetProductListByBrand(int id)
+		{
+			return _productDal.GetListAll(x => x.BrandID == id);
+        }
 	}
 }

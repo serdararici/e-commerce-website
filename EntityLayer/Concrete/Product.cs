@@ -19,6 +19,8 @@ namespace EntityLayer.Concrete
         public bool ProductStatus { get; set; }
         public int CategoryID { get; set; }
         public Category Category { get; set; }
+        public int BrandID { get; set; }
+        public Brand Brand { get; set; }
         public List<Comment> Comments { get; set; }
 
     }

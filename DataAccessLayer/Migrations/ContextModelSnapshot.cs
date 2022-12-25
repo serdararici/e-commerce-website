@@ -197,7 +197,13 @@ namespace DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductID"));
 
+                    b.Property<int>("BrandMarkaID")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MarkaID")
                         .HasColumnType("int");
 
                     b.Property<string>("ProductContent")
@@ -224,6 +230,8 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("ProductID");
 
+                    b.HasIndex("BrandMarkaID");
+
                     b.HasIndex("CategoryID");
 
                     b.ToTable("Products");
@@ -242,13 +250,26 @@ namespace DataAccessLayer.Migrations
 
             modelBuilder.Entity("EntityLayer.Concrete.Product", b =>
                 {
+                    b.HasOne("EntityLayer.Concrete.Brand", "Brand")
+                        .WithMany("Products")
+                        .HasForeignKey("BrandMarkaID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EntityLayer.Concrete.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Brand");
+
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("EntityLayer.Concrete.Brand", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Category", b =>
