@@ -1,10 +1,12 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.Intrinsics.X86;
 
 namespace WebProgramlamaProje.Controllers
 {
+    [AllowAnonymous]
     public class ProductController : Controller
     {
         ProductManager pm = new ProductManager(new EfProductRepository());
@@ -19,5 +21,7 @@ namespace WebProgramlamaProje.Controllers
             var values = pm.GetProductByID(id);
             return View(values);
         }
+
+
     }
 }

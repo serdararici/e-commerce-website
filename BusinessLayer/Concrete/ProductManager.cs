@@ -33,6 +33,11 @@ namespace BusinessLayer.Concrete
 			return _productDal.GetListAll();
 		}
 
+		public List<Product> GetLast3Product()
+		{
+			return _productDal.GetListAll().Take(3).ToList();
+		}
+
 		public List<Product> GetProductListWithCategory()
 		{
 			return _productDal.GetListWithCategory();
