@@ -21,5 +21,13 @@ namespace DataAccessLayer.EntityFramework
             }
                 
         }
+
+        public List<Product> GetListWithCategoryByBrand(int id)
+        {
+            using (var c = new Context())
+            {
+                return c.Products.Include(x => x.Category).Where(x=>x.BrandID==id).ToList();
+            }
+        }
     }
 }

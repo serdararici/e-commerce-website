@@ -18,9 +18,9 @@ namespace BusinessLayer.Concrete
 			_productDal = productDal;
 		}
 
-		public Product GetById(int id)
+		public Product TGetById(int id)
 		{
-			throw new NotImplementedException();
+			return _productDal.GetByID(id);
 		}
 
 		public List<Product> GetProductByID(int id)
@@ -43,24 +43,44 @@ namespace BusinessLayer.Concrete
 			return _productDal.GetListWithCategory();
 		}
 
-		public void ProductAdd(Product product)
+		public List<Product> GetListWithCategoryByBrandPm(int id)
 		{
-			throw new NotImplementedException();
+			return _productDal.GetListWithCategoryByBrand(id);
 		}
 
-		public void ProductDelete(Product product)
-		{
-			throw new NotImplementedException();
-		}
+		//public void ProductAdd(Product product)
+		//{
+		//	throw new NotImplementedException();
+		//}
 
-		public void ProductUpdate(Product product)
-		{
-			throw new NotImplementedException();
-		}
+		//public void ProductDelete(Product product)
+		//{
+		//	throw new NotImplementedException();
+		//}
+
+		//public void ProductUpdate(Product product)
+		//{
+		//	throw new NotImplementedException();
+		//}
 
 		public List<Product> GetProductListByBrand(int id)
 		{
 			return _productDal.GetListAll(x => x.BrandID == id);
         }
+
+		public void TAdd(Product t)
+		{
+			_productDal.Insert(t);
+		}
+
+		public void TDelete(Product t)
+		{
+			_productDal.Delete(t);
+		}
+
+		public void TUpdate(Product t)
+		{
+			_productDal.Update(t);
+		}
 	}
 }

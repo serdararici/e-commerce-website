@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "24NPioqSP2V338hTp27xmIPJy6g47FDfQHpwuQIje6g=",
+  "Hash": "pCQF5+fqmgsLC1gI3/noNpGVwoAp2VUH2/+OAkAKq18=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -3434,6 +3434,23 @@
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\favicon.png"
     },
     {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\logo.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "writer/assets/images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo.png"
+    },
+    {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\logo.svg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
@@ -3449,6 +3466,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo.svg"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\logo1.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "writer/assets/images/logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\logo1.png"
     },
     {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\logo-mini.svg",
@@ -3585,6 +3619,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\TeknoCart.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "writer/assets/images/TeknoCart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\TeknoCart.png"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\images\\TeknoCart.svg",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "writer/assets/images/TeknoCart.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\TeknoCart.svg"
     },
     {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\writer\\assets\\js\\chart.js",

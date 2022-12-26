@@ -1,0 +1,28 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewData["Title"] = "EditProduct";
+    Layout = "~/Views/Shared/BrandLayout.cshtml";
+}
+
+<h1>Ürün Düzenle</h1>
+<br />
+
+@using (Html.BeginForm("EditProduct","Product", FormMethod.Post))
+{
+    @Html.Label("Ürün ID")
+    @Html.TextBoxFor(x=>x.ProductID, new { @class = "form-control"})
+    <br />
+    @Html.Label("Ürün Başlığı")
+    @Html.TextBoxFor(x=>x.ProductName, new { @class = "form-control"})
+    <br />
+    @Html.Label("Ürün Görseli")
+    @Html.TextBoxFor(x=>x.ProductImage, new { @class = "form-control"})
+    <br />
+    @Html.Label("Ürün Kategori")
+    @Html.DropDownListFor(x=>x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class= "form-control"})
+    <br />
+    @Html.Label("Ürün İçeriği")
+    @Html.TextAreaFor(x=>x.ProductContent,10 ,3, new { @class = "form-control"})
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+}
