@@ -18,9 +18,34 @@ namespace BusinessLayer.Concrete
 			_brandDal = brandDal;
 		}
 
-		public void BrandAdd(Brand brand)
+		public List<Brand> GetBrandById(int id)
 		{
-			_brandDal.Insert(brand);
+			return _brandDal.GetListAll(x=>x.MarkaID == id);
+		}
+
+		public List<Brand> GetList()
+		{
+			throw new NotImplementedException();
+		}
+
+		public void TAdd(Brand t)
+		{
+            _brandDal.Insert(t);
+        }
+
+		public void TDelete(Brand t)
+		{
+			throw new NotImplementedException();
+		}
+
+		public Brand TGetById(int id)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void TUpdate(Brand t)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

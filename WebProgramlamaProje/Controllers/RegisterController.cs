@@ -24,7 +24,7 @@ namespace WebProgramlamaProje.Controllers
 			{
                 p.MarkaStatus = true;
                 p.MarkaDescription = "Deneme test";
-                bm.BrandAdd(p);
+                bm.TAdd(p);
                 return RedirectToAction("Index", "Product");
             }
 			else

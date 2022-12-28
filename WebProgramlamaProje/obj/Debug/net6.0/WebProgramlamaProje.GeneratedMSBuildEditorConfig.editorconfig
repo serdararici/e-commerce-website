@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/ErrorPage/Error1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -107,6 +111,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEJyYW5kTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/BrandAboutOnDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJhbmRBYm91dE9uRGFzaGJvYXJkXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/BrandLastProduct/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJhbmRMYXN0UHJvZHVjdFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -117,6 +125,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/BrandNotification/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJhbmROb3RpZmljYXRpb25cRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/CategoryListDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0RGFzaGJvYXJkXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/CategoryList/Default.cshtml]
@@ -133,6 +145,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/ProductLast3Post/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdExhc3QzUG9zdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Components/ProductListDashboard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdExpc3REYXNoYm9hcmRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual Studio 2022/WebProgramlamaProje/WebProgramlamaProje/Views/Shared/Error.cshtml]
