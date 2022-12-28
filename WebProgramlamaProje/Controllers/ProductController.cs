@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -15,6 +16,7 @@ namespace WebProgramlamaProje.Controllers
     {
         ProductManager pm = new ProductManager(new EfProductRepository());
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
+        Context c = new Context();
         public IActionResult Index()
         {
             var values = pm.GetProductListWithCategory();
@@ -28,7 +30,9 @@ namespace WebProgramlamaProje.Controllers
         }
         public IActionResult ProductListByBrand()
         {
-            var values = pm.GetListWithCategoryByBrandPm(1);
+            var usermail = User.Identity.Name;
+            var markaID = c.Brands.Where(x => x.MarkaMail == usermail).Select(y => y.MarkaID).FirstOrDefault();
+            var values = pm.GetListWithCategoryByBrandPm(markaID);
             return View(values);
         }
         [HttpGet]
@@ -47,6 +51,10 @@ namespace WebProgramlamaProje.Controllers
         [HttpPost]
         public IActionResult ProductAdd(Product p)
         {
+           
+            var usermail = User.Identity.Name;
+            var markaID = c.Brands.Where(x => x.MarkaMail == usermail).Select(y => y.MarkaID).FirstOrDefault();
+
             ProductValidator pv = new ProductValidator();
             ValidationResult results = pv.Validate(p);
             if (results.IsValid)
@@ -54,7 +62,7 @@ namespace WebProgramlamaProje.Controllers
                 p.ProductStatus = true;
                 p.ProductCreateDate = DateTime.Parse(DateTime.Now.ToLongDateString());
                 p.ProductThumbnailImage = "..";
-                p.BrandID = 1;
+                p.BrandID = markaID;
                 pm.TAdd(p);
                 return RedirectToAction("ProductListByBrand", "Product");
             }
@@ -90,7 +98,10 @@ namespace WebProgramlamaProje.Controllers
         [HttpPost]
         public IActionResult EditProduct(Product p)
         {
-            p.BrandID = 1;
+            var usermail = User.Identity.Name;
+            var markaID = c.Brands.Where(x => x.MarkaMail == usermail).Select(y => y.MarkaID).FirstOrDefault();
+
+            p.BrandID = markaID;
             p.ProductCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             p.ProductStatus = true;
             p.ProductThumbnailImage = "..";

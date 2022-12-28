@@ -29,7 +29,7 @@ namespace WebProgramlamaProje.Controllers
 				var useridentity = new ClaimsIdentity(claims,"a");
 				ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
 				await HttpContext.SignInAsync(principal);
-				return RedirectToAction("Index", "Brand");
+				return RedirectToAction("Index", "Dashboard");
 			}
 			else
 			{

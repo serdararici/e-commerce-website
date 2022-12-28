@@ -40,12 +40,12 @@ namespace BusinessLayer.Concrete
 
 		public Brand TGetById(int id)
 		{
-			throw new NotImplementedException();
+			return _brandDal.GetByID(id);
 		}
 
 		public void TUpdate(Brand t)
 		{
-			throw new NotImplementedException();
+			_brandDal.Update(t);
 		}
 	}
 }
