@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dAoEbprqmkAzKmQbFCoUwlOJirNtqV3xH8xZh5O5QEY=",
+  "Hash": "KYPPp9yNkXxLiE8B7ZFCroJ0dagtXtHpGcLJfTasY2Y=",
   "Source": "WebProgramlamaProje",
   "BasePath": "_content/WebProgramlamaProje",
   "Mode": "Default",
@@ -391,6 +391,23 @@
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\8.jpg"
     },
     {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\airpodsPro2.Nesil.jpg",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "CoreBlogTema/images/airpodsPro2.Nesil.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\airpodsPro2.Nesil.jpg"
+    },
+    {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\b1.jpg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
@@ -559,6 +576,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\banner5.jpg"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\Canon-46281534-0001_464045771594.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "CoreBlogTema/images/Canon-46281534-0001_464045771594.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\Canon-46281534-0001_464045771594.png"
     },
     {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\iphone12.jpg",
@@ -748,6 +782,23 @@
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\right.png"
     },
     {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\samsungTablet.jpg",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "CoreBlogTema/images/samsungTablet.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\samsungTablet.jpg"
+    },
+    {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\SamsungTelevizyon85Bu80.jpg",
       "SourceId": "WebProgramlamaProje",
       "SourceType": "Discovered",
@@ -831,6 +882,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\t4.jpg"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\TeknoCart.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "CoreBlogTema/images/TeknoCart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\TeknoCart.png"
+    },
+    {
+      "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\TeknoCartAbout.png",
+      "SourceId": "WebProgramlamaProje",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\",
+      "BasePath": "_content/WebProgramlamaProje",
+      "RelativePath": "CoreBlogTema/images/TeknoCartAbout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CoreBlogTema\\images\\TeknoCartAbout.png"
     },
     {
       "Identity": "D:\\Visual Studio 2022\\WebProgramlamaProje\\WebProgramlamaProje\\wwwroot\\CoreBlogTema\\images\\Thumbs.db",

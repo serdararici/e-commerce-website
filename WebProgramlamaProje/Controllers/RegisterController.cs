@@ -3,6 +3,7 @@ using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebProgramlamaProje.Controllers
@@ -11,12 +12,14 @@ namespace WebProgramlamaProje.Controllers
 	{
 		BrandManager bm = new BrandManager(new EfBrandRepository());
 		[HttpGet]
-		public IActionResult Index()
+        [AllowAnonymous]
+        public IActionResult Index()
 		{
 			return View();
 		}
 		[HttpPost]
-		public IActionResult Index(Brand p)
+        [AllowAnonymous]
+        public IActionResult Index(Brand p)
 		{
             BrandValidator bv = new BrandValidator();
 			ValidationResult results = bv.Validate(p);
